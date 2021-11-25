@@ -20,6 +20,6 @@ console.log(pomme [0]);
 
 for (let i = 0; i < pomme.length; i++) {
     pomme.split("");
-    document.getElementById("one-line").innerText += pomme[i];
+    document.getElementById("one-line").innerHTML += (pomme[i] + "<br>");
 
 }
